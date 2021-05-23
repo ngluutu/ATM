@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1621780181 source:c:\users\user\documents\atm2021\system.cpp
+	"System.h"
+
+1621783243 c:\users\user\documents\atm2021\system.h
+	<iostream>
+	<windows.h>
+	<fstream>
+	"Account.h"
+	"Trader.h"
+
+1620482458 source:c:\users\user\documents\atm2021\main.cpp
+	<iostream>
+	"System.h"
+
+1621766388 c:\users\user\documents\atm2021\account.h
+	"System.h"
+
+1621782656 source:c:\users\user\documents\atm2021\account.cpp
+	"Account.h"
+
+1621780181 c:\users\user\documents\atm2021\trader.h
+	"System.h"
+
+1621782656 source:c:\users\user\documents\atm2021\trader.cpp
+	"Trader.h"
+
