@@ -87,7 +87,7 @@ void ATM_function::withdraw(Account u)
     cout << "Nhap so tien ban muon rut: ";
     cin >> cash;
     int temp = cash;
-    if(u.balance_check(cash) == true)
+    if(u.balance_check(cash, u) == true)
     {
         u.data[i+2] -= cash;
         u.set_balance(i+2);

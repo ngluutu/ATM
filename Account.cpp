@@ -102,18 +102,20 @@ int Account::pincheck(int ID, int PIN)
 	}
 	return 2;
 }
-bool Account::balance_check(int cash)
+bool Account::balance_check(int cash, Account& u)
 {
     Screen a;
     ATM_box b;
     if(balance < cash)
     {
         a.noti(5);
+        a.menu(u);
         return false;
     }
     if(b.box[6] < cash)
     {
         a.noti(6);
+        a.menu(u);
         return false;
     }
     return true;

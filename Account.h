@@ -26,7 +26,7 @@ class Account
 	   void M_register();
 	   void see_balance();
 	   void change_pincode();
-	   bool balance_check(int);
+	   bool balance_check(int, Account&);
 
 
     private:
