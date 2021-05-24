@@ -36,12 +36,7 @@ void Screen::StartScreen()
 	if(x == 1)
     {
         Card m;
-        step: int n = m.Read_card();
-        if(n == 2)
-        {
-            noti(2);
-            goto step;
-        }
+        int n = m.Read_card();
         if(n == 3)
         {
             noti(3);
@@ -126,7 +121,7 @@ void Screen::noti(int i)
     {
         case 2:
             cout << "Ban da nhap sai pin :( hay thu lai."<<endl;
-            Sleep(2000);
+            Sleep(500);
             break;
         case 3:
             cout << "Tai khoan cua ban da bi khoa vinh vien @@" <<endl;
@@ -193,6 +188,7 @@ int Card::Read_card()
 	int acc = num_of_acc.countacc();
 	uzer = new Account[acc];
 	_ID = b.getID();
+	here:
 	_pin = b.getPIN();
 	setdata(num_of_acc,uzer);
 	for (int i = 0;i < acc ;i++)
@@ -214,7 +210,10 @@ int Card::Read_card()
 		if (check == 1)
 		{
 			if (uzer[i].get_wrongtimes()<5)
-				return 2;
+            {
+                a.noti(2);
+                goto here;
+            }
 			else
 				if (uzer[i].get_wrongtimes()>=5)
 					return 3;

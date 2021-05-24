@@ -294,7 +294,7 @@ void ATM_box::check_box()
 	cout<<"                |___________________________________________|"<<endl<<endl<<endl;
 	cout<<"                +++++++++++++++++++++++++++++++++++++++++++++"<<endl<<endl<<endl;
     file.close();
-    cout << "Bam 1 de dang nhap, bam 0 de thoat ^^!"<<endl;
+    cout << "Bam 1 de dang nhap, bam phim bat ki de thoat chuong trinh ^^!"<<endl;
     if(x.gettheKey() == 1)
     {
         s.StartScreen();
