@@ -9,6 +9,7 @@ void Screen::StartScreen()
     ATM_box b;
     int x;
 	InputKey y;
+	here:
 	system("cls");
 	cout<<"                +++++++++++++++++++++++++++++++++++++++++++++" <<endl<<endl;
 	cout<<"                 ____________________________________________"<<endl;
@@ -30,7 +31,6 @@ void Screen::StartScreen()
 	cout<<"                |     Bam 0 de thoat!                       |"<<endl;
 	cout<<"                |___________________________________________|"<<endl<<endl<<endl;
 	cout<<"                +++++++++++++++++++++++++++++++++++++++++++++"<<endl;
-
 	x = y.gettheKey();
     system("cls");
 	if(x == 1)
@@ -61,6 +61,15 @@ void Screen::StartScreen()
     {
         b.check_box();
     }
+    if(x == 0)
+    {
+        exit(0);
+    }
+    else
+    {
+        noti(7);
+        goto here;
+    }
 }
 void Screen::menu(Account u)
 {
@@ -79,6 +88,7 @@ void Screen::menu(Account u)
 	cout<<"                |                                           |"<<endl;
 	cout<<"                |___________________________________________|"<<endl<<endl<<endl;
 	cout<<"                +++++++++++++++++++++++++++++++++++++++++++++"<<endl;
+	here:
     int x = a.gettheKey();
     if(x == 1)
     {
@@ -104,30 +114,39 @@ void Screen::menu(Account u)
     {
         y.logout();
     }
+    else
+    {
+        noti(7);
+        goto here;
+    }
 }
 void Screen::noti(int i)
 {
     switch(i)
     {
         case 2:
-            cout << "Ban da nhap sai pin :( hay thu lai.";
+            cout << "Ban da nhap sai pin :( hay thu lai."<<endl;
             Sleep(2000);
             break;
         case 3:
-            cout << "Tai khoan cua ban da bi khoa vinh vien @@";
+            cout << "Tai khoan cua ban da bi khoa vinh vien @@" <<endl;
             Sleep(2000);
             break;
         case 4:
-            cout << "Khong co du lieu ve tai khoan nay, hay dang ky!";
+            cout << "Khong co du lieu ve tai khoan nay, hay dang ky!"<<endl;
             Sleep(2000);
             break;
         case 5:
-            cout << "So du tai khoan cua ban khong du de thuc hien giao dich. Hay nap them tien vao tai khoan ^^";
+            cout << "So du tai khoan cua ban khong du de thuc hien giao dich. Hay nap them tien vao tai khoan ^^"<<endl;
             Sleep(2000);
             break;
         case 6:
-            cout << "ATM khong con du tien de rut. Hay quay lai sau";
+            cout << "ATM khong con du tien de rut. Hay quay lai sau"<<endl;
             Sleep(2000);
+            break;
+        case 7:
+            cout << "Lenh khong hop le, hay thu lai" << endl;
+            Sleep(1000);
             break;
 
     }

@@ -183,7 +183,7 @@ void ATM_function::withdraw(Account u)
             file << a.box[i] << endl;
         file.close();
         file.open("History.txt",ios::app);
-        file << "Tai khoan " << u.get_ID() << " da rut " << temp << " dong!" << endl;
+        file << "Tai khoan " << u.get_ID() << " da rut " << temp - cash << " dong!" << endl;
         file.close();
         cout << "Bam 1 de tiep tuc giao dich, bam 0 de thoat ^^!"<<endl;
         if(x.gettheKey() == 1)
