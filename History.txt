@@ -23,3 +23,7 @@ Tai khoan 20022002 da duoc nap 800000 dong!
 Tai khoan 20022002 da rut 50000 dong!
 Tai khoan 20022002 da rut 70000 dong!
 Tai khoan 20022002 da chuyen 30000 dong cho tai khoan 20021461!
+Tai khoan 20021234 da duoc nap 2500000 dong!
+Tai khoan 20021234 da rut 10000 dong!
+Tai khoan 20021234 da rut 400000 dong!
+Tai khoan 20021234 da chuyen 200000 dong cho tai khoan 20021461!

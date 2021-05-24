@@ -67,7 +67,11 @@ int Account::countacc(){
 }
 int Account::pincheck(int ID, int PIN)
 {
-	if (get_PIN() == PIN && get_ID() == ID)
+    if (get_PIN() == PIN && get_ID() == ID && wrongtimes >= 5)
+    {
+        return 1;
+    }
+	if (get_PIN() == PIN && get_ID() == ID && wrongtimes < 5)
     {
         fstream file;
 		file.open("Account.txt");

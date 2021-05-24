@@ -121,7 +121,7 @@ void Screen::noti(int i)
     {
         case 2:
             cout << "Ban da nhap sai pin :( hay thu lai."<<endl;
-            Sleep(500);
+            Sleep(200);
             break;
         case 3:
             cout << "Tai khoan cua ban da bi khoa vinh vien @@" <<endl;
