@@ -109,12 +109,14 @@ bool Account::balance_check(int cash, Account& u)
     if(balance < cash)
     {
         a.noti(5);
+        system("cls");
         a.menu(u);
         return false;
     }
     if(b.box[6] < cash)
     {
         a.noti(6);
+        system("cls");
         a.menu(u);
         return false;
     }
