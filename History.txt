@@ -1,17 +1,3 @@
-Tai khoan 20021461 da chuyen 100000 dong cho tai khoan 20021462!
-Tai khoan 20021461 da rut 69000 dong!
-Tai khoan 20021461 da chuyen 50000 dong cho tai khoan 20021462!
-Tai khoan 20021462 da duoc nap 1000000 dong!
-Tai khoan 20021461 da duoc nap 100000 dong!
-Tai khoan 20021461 da rut 750000 dong!
-Tai khoan 20021461 da duoc nap 200000 dong!
-Tai khoan 20021461 da duoc nap 500000 dong!
-Tai khoan 20021461 da duoc nap 500000 dong!
-Tai khoan 20021461 da duoc nap 200000 dong!
-Tai khoan 20021461 da rut 2500000 dong!
-Tai khoan 20021461 da duoc nap 800000 dong!
-Tai khoan 20021461 da duoc nap 500000 dong!
-Tai khoan 20021461 da rut 2000000 dong!
 Tai khoan 20021461 da chuyen 10000 dong cho tai khoan 20021461!
 Tai khoan 20021461 da duoc nap 50000 dong!
 Tai khoan 20021461 da rut 10000 dong!
@@ -27,3 +13,16 @@ Tai khoan 20021234 da duoc nap 2500000 dong!
 Tai khoan 20021234 da rut 10000 dong!
 Tai khoan 20021234 da rut 400000 dong!
 Tai khoan 20021234 da chuyen 200000 dong cho tai khoan 20021461!
+Tai khoan 20021234 da duoc nap 2500000 dong!
+Tai khoan 20021234 da rut 10000 dong!
+Tai khoan 20021234 da chuyen 200000 dong cho tai khoan 20021461!
+Tai khoan 20022002 da duoc nap 2500000 dong!
+Tai khoan 20022002 da rut 10000 dong!
+Tai khoan 20022002 da rut 500000 dong!
+Tai khoan 20022002 da rut 700000 dong!
+Tai khoan 20022002 da chuyen 400000 dong cho tai khoan 20021461!
+Tai khoan 20021461 da rut 550000 dong!
+Tai khoan 20021461 da duoc nap 500000 dong!
+Tai khoan 20021461 da duoc nap 150000 dong!
+Tai khoan 20021461 da rut 50000 dong!
+Tai khoan 20021461 da duoc nap 1000000 dong!
